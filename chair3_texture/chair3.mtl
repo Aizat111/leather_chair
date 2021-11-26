@@ -1,0 +1,28 @@
+# Blender MTL File: 'chair3.blend'
+# Material Count: 2
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Metal003_4K_NormalGL.jpg
+map_Kd -s 3.000000 1.000000 1.000000 Metal003_4K_Color.jpg
+refl -s 3.000000 1.000000 1.000000 Metal003_4K_Metalness.jpg
+
+newmtl kumas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump textures\\leather_red_02_nor_gl_4k.exr
+map_Kd -s 5.000000 5.000000 1.000000 textures\\leather_red_02_coll1_4k.png
+map_Ns -s 5.000000 5.000000 1.000000 textures\\leather_red_02_rough_4k.jpg
